@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    font-family: 'ubuntu';
+    font-size: 15px;
+    align-items: center;
+    }
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    height: 50px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home {
+    height: 450px;
+    background-image: url(img/banner.jpg);
+    color: rgb(202, 200, 200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 4px 4px 10px black;
+}
+
+#home p{
+    font-size: 80px;
+    padding: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+#home h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+#quem-somos{
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'ubuntu';
+    font-size: 50px;
+    text-align: center;
+}
+
+#quem-somos img {
+    width: 190px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+#quem-somos p {
+    width: 800px;
+    margin-right: 10px;
+}
+
+#como-funciona{
+    height: 350px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#como-funciona p{
+    color: green;
+    font-family: 'ubuntu';
+    text-align: center;
+}
+
+#cadastro {
+    height: 150px;
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro img {
+    width: 30px;
+    margin: 15px;
+}
+
+#cadastro button {
+    width: 250px;
+    height: 60px;
+}
